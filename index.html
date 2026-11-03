@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Quizes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- ===================== -->
+    <!-- == Header Section === -->
+    <!-- ===================== -->
+
+    <header class="px-5 shadow shadow-opacity-20">
+      <div
+        class="container py-6 d-flex justify-content-between align-items-center"
+      >
+        <div class="d-flex align-items-center gap-7 font-xs fw-semibold w-fit">
+          <div class="logo">
+            <a
+              href="#home"
+              class="text-decoration-none pm-color text-3xl fw-bold cus-font-fam position-relative"
+              >QuizFolio</a
+            >
+          </div>
+          <nav>
+            <ul class="p-0 m-0 d-flex align-items-center gap-5 list-unstyled">
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none fg-white bg-black py-2 px-5 rounded-9 text-xs fw-semibold"
+                  >Home Page</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-decoration-none text-xs fg-4 fw-semibold"
+                  >Exams attempted</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="d-flex gap-5 align-items-center">
+          <a href="#" class="text-decoration-none text-sm fg-4 fw-semibold"
+            >Sign In</a
+          >
+          <a
+            href="#"
+            class="text-decoration-none fg-white bg-black py-4 px-6 rounded-pill text-sm fw-semibold"
+            >Register Free ↗</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- ===================== -->
+    <!--  Header Section End = -->
+    <!-- ===================== -->
+    <main>
+      <!-- ===================== -->
+      <!-- === Hero Section ==== -->
+      <!-- ===================== -->
+      <section class="hero" id="hero">
+        <div class="container d-grid grid-cols-2 py-6 align-items-center">
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-column mb-5 position-relative w-fit">
+              <h1 class="text-5xl fw-bold w-fit">Quiz Hub.</h1>
+              <div class="py-1 px-4 badge w-fit">FRONTEND TRACK 🚀</div>
+              <svg
+                width="256"
+                height="21"
+                viewBox="0 0 256 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_69_2836)">
+                  <path
+                    d="M3.52332 13.96C23.3 4.65332 40.75 17.45 60.5266 10.47C80.3033 3.48999 97.7533 16.2867 117.53 9.30665C137.307 2.32665 154.757 15.1233 174.533 8.14332C194.31 1.16332 211.76 13.96 231.537 6.97999C240.843 3.48999 247.823 4.65332 253.64 9.30665"
+                    stroke-width="5.235"
+                    stroke-linecap="round"
+                    stroke="#1D4ED8"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_69_2836">
+                    <rect width="256" height="20.94" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <p class="fg-4">
+              Test your web development skills with interactive, timed
+              assessments built for rigorous academic prep and high-impact
+              learning streaks.
+            </p>
+
+            <div class="d-flex gap-4 align-items-center mb-5">
+              <a
+                href="#"
+                class="text-decoration-none fg-white bg-black py-4 px-6 rounded-pill text-sm fw-semibold d-flex gap-2 align-items-center"
+              >
+                <span>Browse Exams</span>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.05 11.25L0 10.2L8.7 1.5H3.75V0H11.25V7.5H9.75V2.55L1.05 11.25V11.25"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="#"
+                class="text-decoration-none fg-black bg-white py-4 px-6 rounded-pill text-sm fw-semibold d-flex gap-2 align-items-center shadow-sm"
+              >
+                <svg
+                  width="15"
+                  height="12"
+                  viewBox="0 0 15 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.875 12C4.4625 12 4.10938 11.8531 3.81562 11.5594C3.52187 11.2656 3.375 10.9125 3.375 10.5V8.25H5.625V6.5625C5.1875 6.5375 4.77188 6.44062 4.37813 6.27187C3.98438 6.10313 3.625 5.85 3.3 5.5125V4.6875H2.4375L0 2.25C0.45 1.675 1.00625 1.26875 1.66875 1.03125C2.33125 0.79375 3 0.675 3.675 0.675C4.0125 0.675 4.34063 0.7 4.65938 0.75C4.97813 0.8 5.3 0.89375 5.625 1.03125V0H14.625V9.75C14.625 10.375 14.4062 10.9062 13.9688 11.3438C13.5312 11.7812 13 12 12.375 12H4.875V12M7.125 8.25H11.625V9.75C11.625 9.9625 11.6969 10.1406 11.8406 10.2844C11.9844 10.4281 12.1625 10.5 12.375 10.5C12.5875 10.5 12.7656 10.4281 12.9094 10.2844C13.0531 10.1406 13.125 9.9625 13.125 9.75V1.5H7.125V1.95L11.625 6.45V7.5H10.575L8.4375 5.3625L8.2875 5.5125C8.1125 5.6875 7.92812 5.84375 7.73438 5.98125C7.54063 6.11875 7.3375 6.225 7.125 6.3V8.25V8.25M3.075 3.1875H4.8V4.8C4.95 4.9 5.10625 4.96875 5.26875 5.00625C5.43125 5.04375 5.6 5.0625 5.775 5.0625C6.0625 5.0625 6.32188 5.01875 6.55312 4.93125C6.78437 4.84375 7.0125 4.6875 7.2375 4.4625L7.3875 4.3125L6.3375 3.2625C5.975 2.9 5.56875 2.62813 5.11875 2.44688C4.66875 2.26562 4.1875 2.175 3.675 2.175C3.425 2.175 3.1875 2.19375 2.9625 2.23125C2.7375 2.26875 2.5125 2.325 2.2875 2.4L3.075 3.1875V3.1875M10.125 9.75H4.875V10.5V10.5V10.5H10.2375C10.2 10.3875 10.1719 10.2688 10.1531 10.1438C10.1344 10.0188 10.125 9.8875 10.125 9.75V9.75M4.875 10.5C4.875 10.3875 4.875 10.2688 4.875 10.1438C4.875 10.0188 4.875 9.8875 4.875 9.75V9.75C4.875 9.875 4.875 10 4.875 10.125C4.875 10.25 4.875 10.375 4.875 10.5V10.5V10.5V10.5"
+                    fill="#1D4ED8"
+                  />
+                </svg>
+                <span>View Past Scores</span>
+              </a>
+            </div>
+
+            <div class="d-flex align-items-center gap-4">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.45 10.95L11.7375 5.6625L10.6875 4.6125L6.45 8.85L4.3125 6.7125L3.2625 7.7625L6.45 10.95V10.95M7.5 15C6.4625 15 5.4875 14.8031 4.575 14.4094C3.6625 14.0156 2.86875 13.4812 2.19375 12.8062C1.51875 12.1312 0.984375 11.3375 0.590625 10.425C0.196875 9.5125 0 8.5375 0 7.5C0 6.4625 0.196875 5.4875 0.590625 4.575C0.984375 3.6625 1.51875 2.86875 2.19375 2.19375C2.86875 1.51875 3.6625 0.984375 4.575 0.590625C5.4875 0.196875 6.4625 0 7.5 0C8.5375 0 9.5125 0.196875 10.425 0.590625C11.3375 0.984375 12.1312 1.51875 12.8062 2.19375C13.4812 2.86875 14.0156 3.6625 14.4094 4.575C14.8031 5.4875 15 6.4625 15 7.5C15 8.5375 14.8031 9.5125 14.4094 10.425C14.0156 11.3375 13.4812 12.1312 12.8062 12.8062C12.1312 13.4812 11.3375 14.0156 10.425 14.4094C9.5125 14.8031 8.5375 15 7.5 15V15M7.5 13.5C9.175 13.5 10.5938 12.9188 11.7563 11.7563C12.9188 10.5938 13.5 9.175 13.5 7.5C13.5 5.825 12.9188 4.40625 11.7563 3.24375C10.5938 2.08125 9.175 1.5 7.5 1.5C5.825 1.5 4.40625 2.08125 3.24375 3.24375C2.08125 4.40625 1.5 5.825 1.5 7.5C1.5 9.175 2.08125 10.5938 3.24375 11.7563C4.40625 12.9188 5.825 13.5 7.5 13.5V13.5M7.5 7.5V7.5V7.5V7.5V7.5V7.5V7.5V7.5V7.5V7.5"
+                  fill="#6D5E00"
+                />
+              </svg>
+              <p class="fg-4 mb-0">
+                4,819 students active in the proctoring queue right now
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="d-flex justify-content-end hero-image-side position-relative"
+          >
+            <img
+              src="assets/hero image.jpeg"
+              alt="A girl attempting a quiz on her tablet"
+            />
+            <div class="py-1 px-4 badge w-fit d-flex gap-3 align-items-center">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.90943 10.2584C6.64847 10.4155 7.36406 10.349 8.05619 10.0587C8.74832 9.76852 9.30301 9.30994 9.72026 8.68299L3.06885 7.26919C3.19502 8.01164 3.51523 8.65619 4.02948 9.20284C4.54373 9.74948 5.17038 10.1013 5.90943 10.2584V10.2584M4.07157 5.43764L4.93441 4.9054L5.47358 5.73565L6.30382 5.19648L5.23242 3.50339L3.5324 4.6074L4.07157 5.43764V5.43764M8.14718 6.30394L8.97742 5.76477L9.54919 6.60195L10.3794 6.06278L9.27543 4.36276L7.60802 5.4737L8.14718 6.30394V6.30394M5.28569 13.1929C4.38362 13.0011 3.57228 12.6498 2.85166 12.1388C2.13104 11.6278 1.53966 11.0165 1.07752 10.3048C0.615381 9.5932 0.297454 8.80431 0.123742 7.93815C-0.0499702 7.07199 -0.0409558 6.18788 0.150785 5.28581C0.342526 4.38374 0.693893 3.5724 1.20488 2.85178C1.71588 2.13116 2.32719 1.53978 3.03883 1.07764C3.75046 0.615499 4.53936 0.297572 5.40551 0.12386C6.27167 -0.0498517 7.15578 -0.0408372 8.05785 0.150904C8.95992 0.342645 9.77126 0.694011 10.4919 1.205C11.2125 1.71599 11.8039 2.32731 12.266 3.03894C12.7282 3.75058 13.0461 4.53948 13.2198 5.40563C13.3935 6.27179 13.3845 7.1559 13.1928 8.05797C13.001 8.96004 12.6497 9.77138 12.1387 10.492C11.6277 11.2126 11.0164 11.804 10.3047 12.2661C9.59308 12.7283 8.80419 13.0462 7.93803 13.2199C7.07187 13.3936 6.18776 13.3846 5.28569 13.1929V13.1929M6.67177 6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189M5.56291 11.8887C7.01926 12.1982 8.36024 11.9551 9.58583 11.1592C10.8114 10.3632 11.579 9.23711 11.8886 7.78075C12.1981 6.3244 11.9549 4.98343 11.159 3.75783C10.3631 2.53224 9.23699 1.76466 7.78064 1.4551C6.32428 1.14554 4.98331 1.38872 3.75771 2.18463C2.53212 2.98054 1.76454 4.10667 1.45498 5.56303C1.14542 7.01938 1.3886 8.36035 2.18451 9.58595C2.98042 10.8115 4.10655 11.5791 5.56291 11.8887V11.8887"
+                  fill="#14532D"
+                />
+              </svg>
+              <span>HAPPY TO LEARN ✨</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===================== -->
+      <!-- = Hero Section End == -->
+      <!-- ===================== -->
+    </main>
+    <!-- Scripts -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

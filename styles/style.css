@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fdf9f3;
+}
+
+/* pm => primary */
+.pm-color {
+  color: #1d4ed8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+/* Custom class for the special font-family */
+.cus-font-fam {
+  font-family: "Playfair Display", serif;
+}
+
+header .logo a:link,
+header .logo a:visited {
+  display: inline-block;
+}
+
+header .logo a::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  background-color: #ba1a1a;
+}
+
+.hero {
+  padding-top: 5rem;
+}
+
+.hero h1 {
+  color: #1d4ed8;
+}
+
+.hero .badge {
+  background-color: #ffdad6;
+  color: #93000a;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -100%);
+  rotate: 10deg;
+}
+
+.hero-image-side img {
+  height: 550px;
+  border-radius: 5rem;
+}
+
+.hero .hero-image-side .badge {
+  background-color: #86efac;
+  color: #14532d;
+  transform: translate(0, -50%);
+}
