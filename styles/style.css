@@ -1,7 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: #fdf9f3;
 }
 
@@ -16,12 +20,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 /* Custom class for the special font-family */
 .cus-font-fam {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 header .logo a:link,
@@ -30,7 +34,7 @@ header .logo a:visited {
 }
 
 header .logo a::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 8px;
   height: 8px;
@@ -45,10 +49,6 @@ header .logo a::before {
   padding-top: 5rem;
 }
 
-.hero h1 {
-  color: #1d4ed8;
-}
-
 .hero .badge {
   background-color: #ffdad6;
   color: #93000a;
@@ -61,11 +61,53 @@ header .logo a::before {
 
 .hero-image-side img {
   height: 550px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-image-side .image-wrapper {
+  overflow: hidden;
   border-radius: 5rem;
+}
+
+.hero-image-side .image-wrapper:hover img {
+  scale: 1.1;
 }
 
 .hero .hero-image-side .badge {
   background-color: #86efac;
   color: #14532d;
   transform: translate(0, -50%);
+}
+
+.exams {
+  padding-top: 5rem;
+}
+
+.exams .exam-badge {
+  background-color: #ebe8e2;
+  color: #1c1c18;
+}
+
+.exams article figure div {
+  height: 112px;
+}
+
+.exams .list-1 figure div {
+  color: #6d5e00;
+  background-color: #f7f3ed;
+}
+
+.exams .list-2 figure div {
+  background-color: rgba(255, 218, 214, 30%);
+  color: #ba1a1a;
+}
+
+.exams .list-3 figure div {
+  background-color: rgba(220, 225, 255, 40%);
+  color: #1d4ed8;
+}
+
+.exams .list-4 figure div {
+  background-color: #ebe8e2;
+  color: #45464c;
 }
