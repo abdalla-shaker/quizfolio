@@ -111,3 +111,7 @@ header .logo a::before {
   background-color: #ebe8e2;
   color: #45464c;
 }
+
+footer {
+  background-color: #f7f3ed;
+}
