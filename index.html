@@ -35,7 +35,7 @@
               <li>
                 <a
                   href="#"
-                  class="text-decoration-none fg-white bg-black py-2 px-5 rounded-9 text-xs fw-semibold"
+                  class="text-decoration-none fg-white bg-black py-2 px-5 rounded-9 text-xs fw-semibold d-inline-block"
                   >Home Page</a
                 >
               </li>
@@ -72,7 +72,9 @@
       <!-- === Hero Section ==== -->
       <!-- ===================== -->
       <section class="hero" id="hero">
-        <div class="container d-grid grid-cols-2 py-6 align-items-center">
+        <div
+          class="container d-grid lg:grid-cols-2 py-6 gap-5 align-items-center"
+        >
           <div class="d-flex flex-column">
             <div class="d-flex flex-column mb-5 position-relative w-fit">
               <h1 class="text-5xl fw-bold w-fit pm-color">Quiz Hub.</h1>
@@ -165,29 +167,32 @@
           </div>
 
           <div
-            class="d-flex justify-content-end hero-image-side position-relative"
+            class="d-flex lg:justify-content-end justify-content-center hero-image-side lg:mt-0 mt-9"
           >
-            <figure class="image-wrapper shadow-lg">
+            <figure class="image-wrapper shadow-lg position-relative">
               <img
                 src="assets/hero image.jpeg"
                 alt="A girl attempting a quiz on her tablet"
               />
-            </figure>
-            <div class="py-1 px-4 badge w-fit d-flex gap-3 align-items-center">
-              <svg
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+              <div
+                class="py-1 px-4 badge w-fit d-flex gap-3 align-items-center lg:d-block d-none"
               >
-                <path
-                  d="M5.90943 10.2584C6.64847 10.4155 7.36406 10.349 8.05619 10.0587C8.74832 9.76852 9.30301 9.30994 9.72026 8.68299L3.06885 7.26919C3.19502 8.01164 3.51523 8.65619 4.02948 9.20284C4.54373 9.74948 5.17038 10.1013 5.90943 10.2584V10.2584M4.07157 5.43764L4.93441 4.9054L5.47358 5.73565L6.30382 5.19648L5.23242 3.50339L3.5324 4.6074L4.07157 5.43764V5.43764M8.14718 6.30394L8.97742 5.76477L9.54919 6.60195L10.3794 6.06278L9.27543 4.36276L7.60802 5.4737L8.14718 6.30394V6.30394M5.28569 13.1929C4.38362 13.0011 3.57228 12.6498 2.85166 12.1388C2.13104 11.6278 1.53966 11.0165 1.07752 10.3048C0.615381 9.5932 0.297454 8.80431 0.123742 7.93815C-0.0499702 7.07199 -0.0409558 6.18788 0.150785 5.28581C0.342526 4.38374 0.693893 3.5724 1.20488 2.85178C1.71588 2.13116 2.32719 1.53978 3.03883 1.07764C3.75046 0.615499 4.53936 0.297572 5.40551 0.12386C6.27167 -0.0498517 7.15578 -0.0408372 8.05785 0.150904C8.95992 0.342645 9.77126 0.694011 10.4919 1.205C11.2125 1.71599 11.8039 2.32731 12.266 3.03894C12.7282 3.75058 13.0461 4.53948 13.2198 5.40563C13.3935 6.27179 13.3845 7.1559 13.1928 8.05797C13.001 8.96004 12.6497 9.77138 12.1387 10.492C11.6277 11.2126 11.0164 11.804 10.3047 12.2661C9.59308 12.7283 8.80419 13.0462 7.93803 13.2199C7.07187 13.3936 6.18776 13.3846 5.28569 13.1929V13.1929M6.67177 6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189M5.56291 11.8887C7.01926 12.1982 8.36024 11.9551 9.58583 11.1592C10.8114 10.3632 11.579 9.23711 11.8886 7.78075C12.1981 6.3244 11.9549 4.98343 11.159 3.75783C10.3631 2.53224 9.23699 1.76466 7.78064 1.4551C6.32428 1.14554 4.98331 1.38872 3.75771 2.18463C2.53212 2.98054 1.76454 4.10667 1.45498 5.56303C1.14542 7.01938 1.3886 8.36035 2.18451 9.58595C2.98042 10.8115 4.10655 11.5791 5.56291 11.8887V11.8887"
-                  fill="#14532D"
-                />
-              </svg>
-              <span>HAPPY TO LEARN ✨</span>
-            </div>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  position-relative
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5.90943 10.2584C6.64847 10.4155 7.36406 10.349 8.05619 10.0587C8.74832 9.76852 9.30301 9.30994 9.72026 8.68299L3.06885 7.26919C3.19502 8.01164 3.51523 8.65619 4.02948 9.20284C4.54373 9.74948 5.17038 10.1013 5.90943 10.2584V10.2584M4.07157 5.43764L4.93441 4.9054L5.47358 5.73565L6.30382 5.19648L5.23242 3.50339L3.5324 4.6074L4.07157 5.43764V5.43764M8.14718 6.30394L8.97742 5.76477L9.54919 6.60195L10.3794 6.06278L9.27543 4.36276L7.60802 5.4737L8.14718 6.30394V6.30394M5.28569 13.1929C4.38362 13.0011 3.57228 12.6498 2.85166 12.1388C2.13104 11.6278 1.53966 11.0165 1.07752 10.3048C0.615381 9.5932 0.297454 8.80431 0.123742 7.93815C-0.0499702 7.07199 -0.0409558 6.18788 0.150785 5.28581C0.342526 4.38374 0.693893 3.5724 1.20488 2.85178C1.71588 2.13116 2.32719 1.53978 3.03883 1.07764C3.75046 0.615499 4.53936 0.297572 5.40551 0.12386C6.27167 -0.0498517 7.15578 -0.0408372 8.05785 0.150904C8.95992 0.342645 9.77126 0.694011 10.4919 1.205C11.2125 1.71599 11.8039 2.32731 12.266 3.03894C12.7282 3.75058 13.0461 4.53948 13.2198 5.40563C13.3935 6.27179 13.3845 7.1559 13.1928 8.05797C13.001 8.96004 12.6497 9.77138 12.1387 10.492C11.6277 11.2126 11.0164 11.804 10.3047 12.2661C9.59308 12.7283 8.80419 13.0462 7.93803 13.2199C7.07187 13.3936 6.18776 13.3846 5.28569 13.1929V13.1929M6.67177 6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189V6.67189M5.56291 11.8887C7.01926 12.1982 8.36024 11.9551 9.58583 11.1592C10.8114 10.3632 11.579 9.23711 11.8886 7.78075C12.1981 6.3244 11.9549 4.98343 11.159 3.75783C10.3631 2.53224 9.23699 1.76466 7.78064 1.4551C6.32428 1.14554 4.98331 1.38872 3.75771 2.18463C2.53212 2.98054 1.76454 4.10667 1.45498 5.56303C1.14542 7.01938 1.3886 8.36035 2.18451 9.58595C2.98042 10.8115 4.10655 11.5791 5.56291 11.8887V11.8887"
+                    fill="#14532D"
+                  />
+                </svg>
+                <span>HAPPY TO LEARN ✨</span>
+              </div>
+            </figure>
           </div>
         </div>
       </section>
@@ -201,7 +206,9 @@
 
       <section class="exams" id="exams">
         <div class="container py-6">
-          <div class="d-flex align-items-end justify-content-between mb-9">
+          <div
+            class="d-flex gap-5 lg:flex-row flex-column lg:align-items-end lg:justify-content-between mb-9"
+          >
             <div>
               <span class="text-sm fw-bold mb-3 pm-color d-inline-block"
                 >INTERACTIVE EVALUATIONS</span
@@ -234,7 +241,7 @@
           <ul
             class="d-grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 list-unstyled exams-list"
           >
-            <li class="col p-0 shadow rounded-8 overflow-hidden list-1">
+            <li class="col p-0 shadow-sm rounded-8 overflow-hidden list-1">
               <article>
                 <figure class="m-0">
                   <div
@@ -293,7 +300,7 @@
               </article>
             </li>
 
-            <li class="col p-0 shadow rounded-8 overflow-hidden list-2">
+            <li class="col p-0 shadow-sm rounded-8 overflow-hidden list-2">
               <article>
                 <figure class="m-0">
                   <div
@@ -352,7 +359,7 @@
               </article>
             </li>
 
-            <li class="col p-0 shadow rounded-8 overflow-hidden list-3">
+            <li class="col p-0 shadow-sm rounded-8 overflow-hidden list-3">
               <article>
                 <figure class="m-0">
                   <div
@@ -412,7 +419,7 @@
             </li>
 
             <li
-              class="col p-0 shadow rounded-8 overflow-hidden list-4 align-self-end"
+              class="col p-0 shadow-sm rounded-8 overflow-hidden list-4 align-self-end"
             >
               <article>
                 <figure class="m-0">
