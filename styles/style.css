@@ -53,22 +53,8 @@ header .nav-link:hover {
   color: color-mix(in oklch, var(--bs-black) 16%, oklch(60% 0.02 245));
 }
 
-.hero {
-  padding-top: 5rem;
-}
-
-.hero .badge {
-  background-color: #ffdad6;
-  color: #93000a;
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(50%, -100%);
-  rotate: 10deg;
-}
-
 .primary-link,
-.hero .secondary-link {
+.secondary-link {
   transition: all 0.3s ease-in-out;
 }
 
@@ -76,71 +62,6 @@ header .nav-link:hover {
   background-color: #333;
 }
 
-.hero .secondary-link:hover {
+.secondary-link:hover {
   background-color: #fafafa;
-}
-
-.hero-image-side img {
-  height: 550px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 5rem;
-}
-
-.hero-image-side .image-wrapper {
-  border-radius: 5rem;
-}
-
-.hero-image-side .image-wrapper:hover img {
-  scale: 1.1;
-}
-
-.hero .hero-image-side .badge {
-  background-color: #86efac;
-  color: #14532d;
-  transform: translate(0, -50%);
-}
-
-.exams {
-  padding-top: 5rem;
-}
-
-.exams .exam-badge {
-  background-color: #ebe8e2;
-  color: #1c1c18;
-}
-
-.exams article figure div {
-  height: 112px;
-}
-
-.exams .list-1 figure div {
-  color: #6d5e00;
-  background-color: #f7f3ed;
-}
-
-.exams .list-2 figure div {
-  background-color: rgba(255, 218, 214, 30%);
-  color: #ba1a1a;
-}
-
-.exams .list-3 figure div {
-  background-color: rgba(220, 225, 255, 40%);
-  color: #1d4ed8;
-}
-
-.exams .list-4 figure div {
-  background-color: #ebe8e2;
-  color: #45464c;
-}
-
-footer {
-  background-color: #f7f3ed;
-}
-
-.exams-list li {
-  transition: all 0.3s ease-in-out;
-}
-
-.exams-list li:hover {
-  transform: translateY(-10px);
 }
